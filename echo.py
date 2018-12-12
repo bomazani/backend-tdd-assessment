@@ -44,7 +44,5 @@ def main(args):
 
 
 if __name__ == '__main__':
-    # the following line shaves the program file name off of the command line args
     my_args = sys.argv[1:]
-    # print my_args
     main(my_args)
