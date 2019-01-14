@@ -39,6 +39,7 @@ def main(args):
     if my_args.title:
         my_string = my_string.title()
 
+    print(my_string)
     return my_string
 
 
